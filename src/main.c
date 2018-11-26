@@ -32,7 +32,7 @@ int main(void)
 		// initialisaion  tableau
 		for (int j=0; j<10; j++)
 		{
-			sat[j]= rand()%300;
+			sat[j]= rand()%300 - 150;
 			printf (" Element %d est %d \n", j ,sat[j] ); 
 			
 			if (sat[j]>SEUILH)
@@ -81,7 +81,7 @@ int main(void)
 		
 		for (int p=0; p<N; p++)
 		{
-			a[p]= rand()%300;
+			a[p]= rand()%300 - 150;
 			printf (" Element %d dans a est %d \n", p ,a[p] ); 
 		}
 		  for (int q=0; q<N; q++)
@@ -99,7 +99,7 @@ int main(void)
 		
 		for (int r=0; r<N/2; r++)
 		{
-			miroir[r]= rand()%300;
+			miroir[r]= rand()%300 - 150;
 			printf (" Element %d dans miroir est %d \n", r ,miroir[r] ); 
 		}
 		
