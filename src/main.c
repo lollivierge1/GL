@@ -32,12 +32,13 @@ int main(void)
 					{
 						gain++;
 					}
-						if( tiragmax < gain )
-						{
-							tiragmax = gain;
-						}
 				}
 			}
+			if( tiragmax < gain )
+			{
+				tiragmax = gain;
+			}
+			
 			gain = 0;
 		}	
 			 
